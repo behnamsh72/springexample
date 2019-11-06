@@ -55,8 +55,8 @@ public class Author {
         this.books = books;
     }
 
-    public Author(Long id) {
-        this.id = id;
+    public Long getId() {
+        return id;
     }
 
     @Override
